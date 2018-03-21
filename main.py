@@ -9,21 +9,26 @@
 #requests are objects that flask handles (get set post, etc)
 from flask import Flask, render_template,request
 #scientific computing library for saving, reading, and resizing images
-from scipy.misc import imsave, imread, imresize
+#from scipy.misc import imsave, imread, imresize
+
 #for matrix math
-import numpy as np
+#import numpy as np
+
 #for importing our keras model
-import keras.models
+#import keras.models
+
 #for regular expressions, saves time dealing with string data
-import re
+#import re
 
 #for convert image work
-import base64
+#import base64
 
 #system level operations (like loading files)
 import sys 
+
 #for reading operating system data
-import os
+#import os
+
 #tell our app where our saved model is
 sys.path.append(os.path.abspath("./model"))
 from load import * 
