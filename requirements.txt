@@ -1,7 +1,2 @@
-Flask
-tensorflow
-scipy
-numpy
 keras
-re
-
+Flask
