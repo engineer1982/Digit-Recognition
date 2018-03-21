@@ -1,1 +1,10 @@
 Flask
+scipy
+scipy.misc
+numpy
+keras
+re
+base64
+sys
+os
+tensorflow
